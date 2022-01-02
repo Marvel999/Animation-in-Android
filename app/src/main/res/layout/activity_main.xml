@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/animatorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animator"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <Button
+        android:id="@+id/vectorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vector Animation"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <Button
+        android:id="@+id/transitionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transition Animation"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <Button
+        android:id="@+id/motionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motion Layout Animation"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <Button
+        android:id="@+id/physics_based_animation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics Animation"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/dp_10"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

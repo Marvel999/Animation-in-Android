@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wrapx.androidanimation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidAnimation">
+        <activity
+            android:name=".ui.PhysicsBasedAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TransitionAnimation2"
+            android:exported="true" />
+        <activity
+            android:name=".ui.MotionLayout"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TransitionAnimation"
+            android:exported="true"
+            android:label="@string/title_activity_transition_animation"
+            android:theme="@style/Theme.AndroidAnimation.NoActionBar" />
+        <activity
+            android:name=".ui.VectorAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AnimatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.VectorAnimation">
+
+    <ImageView
+        android:id="@+id/vectorImg1"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="@dimen/spacing_32"
+        android:src="@drawable/check_to_close_anim" />
+
+    <ImageView
+        android:id="@+id/vectorImg"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:layout_gravity="center"/>
+
+</FrameLayout>
